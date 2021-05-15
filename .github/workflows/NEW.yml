@@ -30,7 +30,7 @@ jobs:
         copy wallpaper.bat D:\a\wallpaper.bat
     - name: Creating Tunnel.
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp 3389"'
-    - name: Connect Ke RDP Kamu CPU 2 Core - 7GB Ram - 255 SSD.
+    - name: Connecting to your RDP.
       run: cmd /c start.bat
     - name: RDP is ready!
       run: | 
